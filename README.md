@@ -1,7 +1,7 @@
 # iOS-Knowlage-Base
 A small repo where I  save code snippets that helped me develop my apps. 
-##1) iOS
-###1.1)  Animate
+## 1) iOS
+### 1.1)  Animate
 ``` swift
 self.Container.alpha = 0
 
@@ -15,9 +15,9 @@ UIView.animate(withDuration: 0.3, animations: { () -> Void in
 ```
 
 
-##2) Watch Kit
+## 2) Watch Kit
 
-###2.1) Query data from HealtKit (watch OS 3)
+### 2.1) Query data from HealtKit (watch OS 3)
 ```swift
     func getAVGHeartRate(completion:@escaping ((_ avg : Double) -> Void)) {
         
