@@ -36,3 +36,15 @@ UIView.animate(withDuration: 0.3, animations: { () -> Void in
         healthStore.execute(squery)
     }
 ```
+
+### 2.2) Alert 
+```swift
+let h0 = { print("h0 action")}
+let h1 = { print("h1 action")}
+
+let action1 = WKAlertAction(title: "h0 action", style: .default, handler:h0)
+let action2 = WKAlertAction(title: "h1 action", style: .default, handler:h0)
+
+self.presentAlert(withTitle: "Title", message: "a message", preferredStyle: .actionSheet, actions: [action1, action2])
+   
+   ```
